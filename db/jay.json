@@ -1,0 +1,71 @@
+[
+  {
+    "mainImg": "./img/main/ad/1.jpg",
+    "thumbs": ["./img/thumb/ad/1.jpg", "./img/thumb/ad/2.jpg"],
+    "descriptionH2": "리액트소개페이지",
+    "descriptionP": "수능날에 맞춰 광고를 만들어 전단지를 나눠주는 대신 팝업으로 전단지를 대신하여 어쩌고 하였습니다.",
+    "links": [
+      {
+        "linkInto": "#none",
+        "linkName": "깃 주소",
+        "linkClass": "fa-brands fa-github"
+      },
+      {
+        "linkInto": "#none",
+        "linkName": "피그마 주소",
+        "linkClass": "fa-brands fa-figma"
+      },
+      {
+        "linkInto": "#none",
+        "linkName": "구글 ppt",
+        "linkClass": "xi-office"
+      },
+      {
+        "linkInto": "#none",
+        "linkName": "노션",
+        "linkClass": "xi-note-o"
+      }
+    ]
+  },
+  {
+    "mainImg": "./img/main/ad/1.jpg",
+    "thumbs": ["./img/thumb/ad/2.jpg", "./img/thumb/ad/3.jpg", "./img/thumb/ad/1.jpg", "./img/thumb/ad/1.jpg"],
+    "descriptionH2": "수능광고전단지2",
+    "descriptionP": "수능날에 맞춰 광고를 만들어 전단지를 나눠주는 대신 팝업으로 전단지를 대신하여 저쩌고 하였습니다.",
+    "links": [
+      {
+        "linkInto": "#none",
+        "linkName": "깃 주소",
+        "linkClass": "fa-brands fa-github"
+      },
+      {
+        "linkInto": "#none",
+        "linkName": "피그마 주소",
+        "linkClass": "fa-brands fa-figma"
+      },
+      {
+        "linkInto": "#none",
+        "linkName": "사이트 주소",
+        "linkClass": "fa-solid fa-globe"
+      }
+    ]
+  },
+  {
+    "mainImg": "./img/main/ad/1.jpg",
+    "thumbs": ["./img/thumb/ad/3.jpg", "./img/thumb/ad/1.jpg", "./img/thumb/ad/2.jpg"],
+    "descriptionH2": "EC솔루션 프론트엔드 개발",
+    "descriptionP": "수능날에 맞춰 광고를 만들어 전단지를 나눠주는 대신 팝업으로 전단지를 대신하여 우쩌고 하였습니다.",
+    "links": [
+      {
+        "linkInto": "#none",
+        "linkName": "피그마 주소",
+        "linkClass": "fa-brands fa-figma"
+      },
+      {
+        "linkInto": "#none",
+        "linkName": "사이트 주소",
+        "linkClass": "fa-solid fa-globe"
+      }
+    ]
+  }
+]
