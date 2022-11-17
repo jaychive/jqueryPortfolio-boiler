@@ -8,18 +8,22 @@ const portfolioDB = [
     descriptionP: '수능날에 맞춰 광고를 만들어 전단지를 나눠주는 대신 팝업으로 전단지를 대신하여 어쩌고 하였습니다.',
     links: [
       {
+        linkInto: '#none',
         linkName: '깃 주소',
         linkClass: 'fa-brands fa-github'
       },
       {
+        linkInto: '#none',
         linkName: '피그마 주소',
         linkClass: 'fa-brands fa-figma'
       },
       {
+        linkInto: '#none',
         linkName: '구글 ppt',
         linkClass: 'xi-office'
       },
       {
+        linkInto: '#none',
         linkName: '노션',
         linkClass: 'xi-note-o'
       }
@@ -32,14 +36,17 @@ const portfolioDB = [
     descriptionP: '수능날에 맞춰 광고를 만들어 전단지를 나눠주는 대신 팝업으로 전단지를 대신하여 저쩌고 하였습니다.',
     links: [
       {
+        linkInto: '#none',
         linkName: '깃 주소',
         linkClass: 'fa-brands fa-github'
       },
       {
+        linkInto: '#none',
         linkName: '피그마 주소',
         linkClass: 'fa-brands fa-figma'
       },
       {
+        linkInto: '#none',
         linkName: '사이트 주소',
         linkClass: 'fa-solid fa-globe'
       }
@@ -52,10 +59,12 @@ const portfolioDB = [
     descriptionP: '수능날에 맞춰 광고를 만들어 전단지를 나눠주는 대신 팝업으로 전단지를 대신하여 우쩌고 하였습니다.',
     links: [
       {
+        linkInto: '#none',
         linkName: '피그마 주소',
         linkClass: 'fa-brands fa-figma'
       },
       {
+        linkInto: '#none',
         linkName: '사이트 주소',
         linkClass: 'fa-solid fa-globe'
       }
@@ -86,6 +95,7 @@ $('#portfolio .myNav li').click(function(){
 });
 
 // 페이지 변경용 콜백함수
+
 function changePage (num){
 
   $('#portfolio .description h2').html(portfolioDB[num].descriptionH2);
@@ -101,7 +111,7 @@ function changePage (num){
 
   let linkSpace = '';
   $.each(portfolioDB[num].links, (index, value)=>{
-    linkSpace += `<li><a href="${value.linkName}"><i class="${value.linkClass} text-success"><span class="sr-only">${value.linkName}</span></i></a></li>`;
+    linkSpace += `<li><a href="${value.linkInto}"><i class="${value.linkClass} text-success fs-1"><span class="sr-only">${value.linkName}</span></i></a></li>`;
   });
   $('#portfolio .links').html(linkSpace);
 
