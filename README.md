@@ -12,6 +12,3 @@
 * async.js로 자바스크립트 외부 연동 파일 변경하였습니다.
 * html 기준이 jQueryServer.html이 되었습니다.
 * 모든 경로는 서버 절대 경로로 변경하였습니다.
-
-> 서버에 연결하였습니다.
-https://shuga6.cafe24.com/ajax/jQueryServer.html
